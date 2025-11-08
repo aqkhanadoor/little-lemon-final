@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Little Lemon React Capstone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully responsive restaurant experience built for the Meta Front-End Developer Professional Certificate capstone. This project showcases the end-to-end skills learned across the program: UX planning, semantic HTML, CSS architecture, React component design, state management, accessibility testing, and Git-based deployment.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+- **Production:** https://aqkhanadoor.github.io/little-lemon-final/
 
-### `npm start`
+## About the Developer
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Hi, I’m **Ashique Khan S**. I completed this capstone as part of the Coursera Meta Front-End Developer React course to demonstrate a job-ready portfolio project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Course Context
 
-### `npm test`
+This project follows the official syllabus:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Module 1 – Starting the project:** environment setup, Git/GitHub workflow, UX/UI planning, wireframes, Figma design fundamentals.
+- **Module 2 – Project foundations:** semantic HTML layout, reusable CSS grid system, component breakdown and scaffolding.
+- **Module 3 – Project functionality:** booking form with managed state, API/data integration, design refinement, accessibility review, form UX enhancements.
+- **Module 4 – Graded assessment:** peer review, graded evaluation, final reflection, and next-steps planning for the developer journey.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Modern landing experience:** hero, seasonal menu highlights, and responsive cards optimized for desktop and mobile.
+- **Booking flow:** reservation form with validation, live availability helpers, and confirmation screen.
+- **Cart & ordering:** add-to-cart system, order customization, cart summary, and order confirmation toasts.
+- **Contact center:** hospitality summary, quick contact channels, inquiry form, and operational details.
+- **Dynamic navigation:** pill-style menu, mobile drawer with backdrop and badge counts, and route-aware scrolling.
+- **Footer redesign:** hospitality-focused messaging, direct contact details, and personal LinkedIn link.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React 18** with functional components and hooks
+- **React Router 6** for SPA navigation
+- **React Hot Toast** for friendly user feedback
+- **React Hook Form** (reservations) and custom state management in contexts (cart)
+- **CSS modules** via global stylesheet with modern layout techniques (CSS Grid/Flexbox, fluid typography)
+- **Jest + React Testing Library** (existing scaffolding for unit tests)
+- **GitHub Pages** deployment powered by the `gh-pages` npm package
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm install
+npm start
+```
